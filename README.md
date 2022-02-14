@@ -1,10 +1,11 @@
 # speech-to-speech
 
+```
 conda create --name <env_name> python=3.7
-
 conda activate <env_name>
+```
 
-# install speech-to-speech dependencies
+## Install speech-to-speech dependencies
 
 ```
 git clone https://github.com/Open-Speech-EkStep/speech-to-speech.git
@@ -13,12 +14,12 @@ pip install -r requirements.txt
 
 ```
 
-# ASR models
+## ASR models
 ```
 Update ASR model paths in: infer.sh
 ```
 
-# TTS models
+## TTS models
 ```
 Update TTS model paths in: tts_inference.py
 ```
