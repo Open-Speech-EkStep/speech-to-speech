@@ -26,7 +26,7 @@ Update vakyansh-TTS model paths in: tts_inference.py
 
 # Run 
 
-To run a Gradio interface for Speech to Speech conversion from English to Hindi, simple run:
+To run a Gradio interface for Speech to Speech conversion from English to Hindi, simply run:
 ```
 bash infer.sh
 ```
