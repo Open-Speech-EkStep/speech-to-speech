@@ -9,6 +9,7 @@ conda activate <env_name>
 
 ```
 git clone https://github.com/Open-Speech-EkStep/speech-to-speech.git
+cd speech-to-speech
 bash s2s_installs.sh
 pip install -r requirements.txt
 
