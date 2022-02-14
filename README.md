@@ -21,7 +21,7 @@ Update ASR model paths in: infer.sh
 
 ## TTS models
 ```
-Update TTS model paths in: tts_inference.py
+Update vakyansh-TTS model paths in: tts_inference.py
 ```
 
 # Run 
