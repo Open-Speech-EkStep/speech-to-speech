@@ -15,7 +15,7 @@ pip install -e .
 cd ..
 
 # downloading the IndicTrans en-indic model 
-wget https://storage.googleapis.com/vakyaansh-open-models/translation_models/en-indic.zip
+wget https://storage.googleapis.com/vakyansh-open-models/translation_models/en-indic.zip
 unzip en-indic.zip
 
 # Installing vakyansh-tts and tts_infer package for TTS inference
@@ -26,7 +26,7 @@ bash install.sh
 python setup.py bdist_wheel
 pip install -e .
 cd tts_infer
-gsutil -m cp -r gs://vakyaansh-open-models/translit_models .
+gsutil -m cp -r gs://vakyansh-open-models/translit_models .
 cd ../../
 
 Installing indic-punct
